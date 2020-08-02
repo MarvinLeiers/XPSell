@@ -160,7 +160,7 @@ public final class XPSell extends JavaPlugin
                 order.getBuyer().sendMessage("§cAngebot beendet!");
                 orders.remove(order.getBuyer());
             }
-        }.runTaskLater(this, 60 * 20);
+        }.runTaskLater(this, 61 * 20);
 
         return true;
     }
